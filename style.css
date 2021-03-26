@@ -1,0 +1,36 @@
+header{
+    background-color: aqua;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+img{
+    flex-basis: 15%;
+}
+
+nav{
+    flex-basis: 85%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-top: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 5%;
+}
